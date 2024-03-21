@@ -1,0 +1,12 @@
+
+
+
+X_train = X[indices[:1000],:]
+X_val = X[indices[1000:1500],:]
+X_test = X[indices[1500:],:]
+
+
+
+t_multi_train = t_multi[indices[:1000]]
+t_multi_val = t_multi[indices[1000:1500]]
+t_multi_test = t_multi[indices[1500:]]
